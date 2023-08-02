@@ -2,6 +2,7 @@ import "@nomicfoundation/hardhat-foundry";
 import "@openzeppelin/hardhat-upgrades";
 import "@nomicfoundation/hardhat-ethers";
 import "@nomicfoundation/hardhat-verify";
+import "@typechain/hardhat";
 import "dotenv/config";
 
 const config = {
