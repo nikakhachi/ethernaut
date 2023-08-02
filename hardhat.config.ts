@@ -5,7 +5,16 @@ import "@nomicfoundation/hardhat-verify";
 import "dotenv/config";
 
 const config = {
-  solidity: "0.6.12",
+  solidity: {
+    compilers: [
+      {
+        version: "0.6.12",
+      },
+      {
+        version: "0.8.0",
+      },
+    ],
+  },
   settings: {
     optimizer: {
       enabled: true,
